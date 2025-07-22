@@ -1,26 +1,39 @@
 * {
     font-family: "Quicksand", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: none;
+    padding: none;
+    width: 100%;
+    height: 100%;
+
+
 }
 
+body {
+
+    background-color: darkslategrey;
+}
+
+header {
+    display: inline-block;
+    position: fixed;
+    height: 0%;
+}
 
 .imglogo {
-    width: 80px;
-    height: 60px;
-    margin-top: 11px;
-    margin-left: 185px;
+    width: 6%;
+    height: 6%;
+    margin-top: 0%;
+    margin-left: 18%;
     border-radius: 30px;
+    position: fixed;
 }
 
 .menu {
     font-size: 16px;
     font-weight: 400;
-    margin-top: 30px;
-    margin-left: 600px;
+    margin-top: 1%;
+    margin-left: 50%;
     position: fixed;
-    display: inline-block
 }
 
 .menuiten {
@@ -29,138 +42,50 @@
 }
 
 .cabeçario {
-
-    display: flex;
     background-image: url(./img/Banner.png);
-    width: 1440px;
-    height: 359px;
+    width: 100%;
+    height: 30%;
     border: none;
-    margin-top: 25px;
-
+    margin-top: 3%;
+    display: inline-flex;
 }
 
 .nometopo {
-    margin-top: 70px;
-    margin-left: 400px;
-}
+    width: 50%;
+    height: 0%;
+    margin-top: 0%;
+    margin-left: 27%;
 
-.nome {
-    text-align: center;
-    color: #FFF;
-    font-size: 58px;
-    font-weight: 700;
-    line-height: 80px;
-    letter-spacing: 0.2px;
-}
-
-.nome2 {
-
-    color: #FFF;
-    text-align: center;
-    font-size: 58px;
-    font-weight: 700;
-    line-height: 80px;
-    letter-spacing: 0.2px;
-}
-
-.profisao {
-    margin-top: 25px;
-    text-align: center;
-    color: #F3C371;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.2px;
-
-
-}
-
-.cargo {
-
-    text-align: center;
-    letter-spacing: -0.48px;
-    font-weight: 400;
-    font-size: 24px;
 }
 
 .fotoperfil {
-    margin-top: 55px;
-    margin-left: 200px;
-    border-radius: 100%;
-    width: 250px;
+    width: 30%;
+    height: 80%;
+    margin-top: 3%;
 }
 
-.ola {
-    color: var(--Roxo-escuro, #2B0955);
-    text-align: center;
-    color: var(--Roxo-escuro, #2B0955);
-    text-align: center;
-    font-size: 40px;
-    letter-spacing: 0.8px;
-    margin-top: 25px;
-}
-
-.line1 {
-    width: 385px;
-    height: 2px;
-    background: #FBC508;
-    display: inline-block;
-    margin-left: 526px;
-    margin-top: 27px;
-}
-
-.line2 {
-    width: 385px;
-    height: 2px;
-    background: #FBC508;
-    display: inline-block;
-    margin-left: 249px;
-    margin-top: 27px;
-}
-
-.p1 {
+.nome {
     display: flex;
-    width: 401px;
-    height: 242px;
+    width: 190px;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
-    margin-top: 14px;
-    margin-left: 534px;
+    text-align: center;
+    font-size: 58px;
+    color: var(--Branco, #FFF);
 }
-
-.conteComigo {
+.nome2 {
     display: flex;
-    color: var(--Foundation-Violet-violet-900, #3C2A50);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.2px;
-    margin-left: 830px;
+    width: 190px;
+    justify-content: center;
+    text-align: center;
+    font-size: 58px;
+    color: var(--Branco, #FFF);
+    margin-top:30px ;
 }
-
-.h1projetos {
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 0.8px;
-    color: #3C2A56;
-    margin-left: 248px;
-    margin-top: 48px;
-}
-
-.projeto1 {
-    width: 630px;
-    height: 450px;
-    flex-shrink: 0;
-    margin-left: 70px;
-    margin-top: 6px;
-}
-.projeto2 {
-    width: 630px;
-    height: 450px;
-    flex-shrink: 0;
-    margin-top: 6px;
-}
-.imagensprojetos{
-    background: #3C2A56;
+.profisao{
+    margin-top: 30%;
+    color: var(--Foundation-Yellow-Y100, #F3C371);
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
 }
