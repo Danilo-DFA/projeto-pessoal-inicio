@@ -2,7 +2,7 @@
     font-family: "Quicksand", sans-serif;
     margin: none;
     padding: none;
-    width: 100%;
+
 
 
 
@@ -43,56 +43,50 @@ header {
 
 .cabeçario {
     background-image: url(./img/Banner.png);
-    width: 100%;
-    height: 30%;
     border: none;
     margin-top: 3%;
-    display:flex;
+    display: flex;
 }
 
 .nometopo {
-    width: 50%;
+
     height: 0%;
     margin-top: 0%;
-    margin-left: 27%;
+    margin-left: 25%;
 
 }
 
 .fotoperfil {
-    width: 30%;
+    width: 60%;
     height: 60%;
-    margin-top: 4%;
-    margin-left: 10%;
+    margin-top: 14%;
+    margin-left: 50%;
+    display: flex;
 }
 
 .nome {
     display: flex;
-    width: 190px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-size: 58px;
+
+    font-size: 358%;
     color: var(--Branco, #FFF);
 }
 
 .nome2 {
     display: flex;
-    width: 190px;
-    justify-content: center;
-    text-align: center;
-    font-size: 58px;
+
+    font-size: 358%;
     color: var(--Branco, #FFF);
-    margin-top: 30px;
+    margin-top: 2%;
 }
 
 .profisao {
-    margin-top: 20%;
+    margin-top: 6%;
     color: var(--Foundation-Yellow-Y100, #F3C371);
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
     margin-left: 20%;
-    margin-bottom: 4%;
+    margin-bottom: 0%;
 }
 
 .bios {
@@ -181,8 +175,8 @@ header {
     margin-left: 8%;
     margin-bottom: 1%;
 }
-.wordpress {
 
+.wordpress {
     height: 0%;
     margin-top: 2%;
 }
@@ -197,18 +191,12 @@ header {
 }
 
 .tecnologias {
-    align-items: center;
-    width: 20%;
-    height: 30%;
-    flex-shrink: 0;
-    display: flex;
-    margin-left: 23%;
-    padding-left: 3%;
+    height: 0%;
+    margin-left: 0%;
+    padding-left: 0%;
     margin-top: 1%;
 }
-.tecnologias2{
-    margin-left: 31%;
-}
+
 
 .cursos {
     background-color: #afacac;
@@ -269,8 +257,10 @@ header {
     margin-top: 2%;
     margin-left: 7%;
 }
-.redesocial{
-    display: inline-flex;
+
+.redesocial {
+
+    display:flex;
     margin-top: 3%;
     background: #bb7979;
     align-items: center;
@@ -278,27 +268,33 @@ header {
 }
 
 .imggithub {
-    width: 131px;
-    height: 131px;
+    width: 20%;
+    height: 20%;
     margin-top: 3%;
     margin-bottom: 5%;
-    margin-left: 43%;
+    margin-left: 38%;
 }
-.linkgithub{
-    margin-top: 8%;
-    margin-left: -2%;
+
+.linkgithub {
+    margin-top: 3%;
+    margin-left: -12%;
 }
-.frasefinal{
+
+.frasefinal {
     text-align: center;
     font-size: 17px;
     color: #241e08;
-    margin-left: -149%;
+    margin-left: -9%;
     margin-top: -10%;
+   
 
 }
-.fim{
-    display: inline-block;
+
+.fim {
+    display:flex;
     width: 100%;
     height: 1%;
     background: #111010;
 }
+
+@media
