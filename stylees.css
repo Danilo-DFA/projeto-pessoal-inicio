@@ -17,6 +17,7 @@ header {
     display: inline-flex;
     height: 0%;
     background: #6b20d4;
+    width: 100%;
 }
 
 .imglogo {
@@ -24,12 +25,11 @@ header {
     height: 6%;
     margin-top: 0%;
     margin-left: 18%;
-    border-radius: 30px;
     position: fixed;
 }
 
 .menu {
-    font-size: 16px;
+    font-size: 80%;
     font-weight: 400;
     margin-top: 1%;
     margin-left: 50%;
@@ -47,7 +47,7 @@ header {
     height: 30%;
     border: none;
     margin-top: 3%;
-    display: inline-flex;
+    display:flex;
 }
 
 .nometopo {
@@ -60,7 +60,7 @@ header {
 
 .fotoperfil {
     width: 30%;
-    height: 75%;
+    height: 60%;
     margin-top: 4%;
     margin-left: 10%;
 }
@@ -198,8 +198,8 @@ header {
 
 .tecnologias {
     align-items: center;
-    width: 287px;
-    height: 360px;
+    width: 20%;
+    height: 30%;
     flex-shrink: 0;
     display: flex;
     margin-left: 23%;
